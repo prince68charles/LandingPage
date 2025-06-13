@@ -1,31 +1,108 @@
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 20px 80px;
+}
 
-.container {
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
 
-    display: flex;
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
 
-    justify-content: space-evenly;
-
-    border: 48px solid black;
+.nav-links a:hover {
+  text-decoration: underline;
 }
 
 
+.first {
 
-.box{
+     /* Establish the structure of the first box*/
+
+   display: flex;
+   background-color: black;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+    padding: 80px;
+
+}
+
+
+.first-left {
+
+     /* Establish the style of the left side of the box*/
+
+     max-width: 500px;
+
+}
+
+.first-left h1 {
+
+    /* Establish the style of header*/
 
     font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px
+
 }
 
-#box1 {
+.first-left button {
 
-    background-color: blue;
+    background-color: rgb(30, 154, 196);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointe
+
 }
 
-#box2 {
 
-    background-color: yellow;
+
+
+.first-right {
+
+    max-width: 250px;
+    color: black;
+    align-items: center;
 }
 
-#box3 {
+.first-right div {
 
-    background-color: red;
+    display: flex;
+    background-color: white;
+    height: 150px;
+    
+    
+}
+
+
+
+.second{
+
+   display: flex;
+   align-items: center;
+   background-color: white;
+   justify-content: space-between;
+   padding:80px
+
+}
+
+
+.second-container {
+
+    display: flex;
+    border: 4px solid blue;
+    
 }
